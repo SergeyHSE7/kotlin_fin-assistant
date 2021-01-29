@@ -1,5 +1,6 @@
 package com.kotlinHSE.sergey
 
+import com.kotlinHSE.sergey.models.CurrencyRate
 import com.kotlinHSE.sergey.models.StockInfo
 import com.kotlinHSE.sergey.models.StockPrice
 import kotlinx.serialization.decodeFromString

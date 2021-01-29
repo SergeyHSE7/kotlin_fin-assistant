@@ -1,4 +1,4 @@
-package com.kotlinHSE.sergey
+package com.kotlinHSE.sergey.models
 
 import kotlinx.serialization.Serializable
 

@@ -5,7 +5,10 @@
 
 Данный сервис служит для предоставления информации по акциям иностранных и российских компаний. 
 
-Для написания данного сервиса было использовано официальное руководство - [Creating HTTP APIs with Ktor](https://play.kotlinlang.org/hands-on/Creating%20HTTP%20APIs%20with%20Ktor).
+Для написания данного сервиса было использовано официальное руководство - [Creating HTTP APIs with Ktor](https://play.kotlinlang.org/hands-on/Creating%20HTTP%20APIs%20with%20Ktor) и 
+[OpenAPI от Тинькоффа](https://tinkoffcreditsystems.github.io/invest-openapi/). 
+
+Перед запуском проекта необходимо добавить переменную окружения *api_token* (токен OpenAPI для Sandbox от Тинькоффа).
 
 ### Описание предоставляемого API:
 - **/api/stocks/{period}/{sortCriteria}/{isDescending}** - возвращает отсортированный список акций с историей цен за указанный период.
