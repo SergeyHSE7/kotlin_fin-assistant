@@ -5,7 +5,8 @@
 
 Данный сервис служит для предоставления информации по акциям иностранных и российских компаний. 
 
-Для написания данного сервиса было использовано официальное руководство - [Creating HTTP APIs with Ktor](https://play.kotlinlang.org/hands-on/Creating%20HTTP%20APIs%20with%20Ktor) и 
+Для написания данного сервиса было использовано официальное руководство [Creating HTTP APIs with Ktor](https://play.kotlinlang.org/hands-on/Creating%20HTTP%20APIs%20with%20Ktor), 
+[Currency API](https://www.currency-api.com/) и 
 [OpenAPI от Тинькоффа](https://tinkoffcreditsystems.github.io/invest-openapi/). 
 
 Перед запуском проекта необходимо добавить переменную окружения *api_token* (токен OpenAPI для Sandbox от Тинькоффа).
